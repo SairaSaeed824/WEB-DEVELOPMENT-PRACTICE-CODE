@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    #first {
+        Color: blue;
+    }
+    #secondly {
+        Color: green;
+    }
+    p {
+        Color: brown;
+    }
+    a {
+        Color: red;
+    }
+    p,
+    a {
+        color: red;
+    }
+    li {
+        list-style-type: none;
+    }
+    .special {
+        font-weight: bold;
+    }
+    p sub {
+        color: white;
+    }
+    ul+li {
+        font-size: red;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    body h1+p .special {}
+    p#first {
+        color: aliceblue;
+    }
+    li[class~="first"] {
+        color: red;
+    }
+}
